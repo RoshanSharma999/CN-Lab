@@ -1,0 +1,30 @@
+(1) Write a program for implementing the error detection technique for data transfer in unreliable
+network code using CRC (16-bits) Technique.
+
+(2) Given a graph of 5 nodes A to E, find shortest paths from any node as source to all other
+nodes using Distance vector routing.
+
+(3) Given a graph of 5 nodes A to E, find shortest paths from any node as source to all other
+nodes using Link state routing.
+
+(4) Packets from different flows arrive at a switch or router for processing. A good scheduling
+technique treats the different flows in a fair and appropriate manner. Implement priority
+queuing as a technique to improve Quality of Service.
+
+(5) Write a program to achieve Traffic management at Flow level by implementing Leaky Bucket
+Algorithm.
+
+(6) Using TCP/IP sockets, write a client-server program to make client send the file name and
+the server to send back the contents of the requested file name “sample.txt” with the following
+contents: “Hello we are at Computer Networks Lab” Display suitable error message in case
+the file is not present in the server.
+
+Note: How to run/test Q6
+
+g++ cn6_server.cpp -o server
+g++ cn6_client.cpp -o client
+
+In one terminal:
+./server
+In other terminal:
+./client
