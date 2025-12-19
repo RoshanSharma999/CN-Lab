@@ -62,7 +62,7 @@ BEGIN {
     if(event == "d"){
         dcount++;
     }
-    if(event == "r" && from ="1" & to="2" ){
+    if(event == "r" && from ="1" && to="2" ){
         rcount++;
     }
     if(event=="+" && from=="0" && to=="1"){
